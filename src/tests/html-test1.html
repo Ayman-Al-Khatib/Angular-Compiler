@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="product-list">
+    <div
+      *ngFor="let product of products"
+      class="product"
+      (click)="selectProduct(product)"
+    >
+      <img [src]="product.imageUrl" alt="{{ product.name }}" />
+      <p>{{ product.name }} ALSDJF -=ASDOFJA 087987ASDFKJLJ 8943R5QQ# q$#qrr ALSJF </p>
+    </div>
+  </div>
+
+  <app-product-detail [product]="selectedProduct"></app-product-detail>
+</div>

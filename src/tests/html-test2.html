@@ -1,0 +1,13 @@
+<app-product-detail
+        id="product-123"
+        *ngIf="isProductAvailable"
+        *ngFor="let product of products"
+        [class.active]="isActive"
+        (click)="onProductClick(product.id)">
+  <div>
+    {{ product.name }}
+    <span [style.color]="textColor" (mouseover)="onHover()">
+      {{ product.description }}
+    </span>
+  </div>
+</app-product-detail>

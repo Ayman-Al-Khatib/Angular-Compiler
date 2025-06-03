@@ -1,0 +1,7 @@
+Line 2: Type mismatch: cannot assign 'number' to variable 'test' of declared type 'boolean'
+Line 6: Type mismatch: Cannot assign 'string' to variable 'test2' of type 'boolean'
+Line 9: Duplicate variable declaration: 'test2'
+Line 12: Undefined variable 'unde'
+Line 31: Function 'test' expects 2 arguments but got 1.
+Line 33: Undefined Function 'testtwo'
+Line 37: Function 'functionTest' expects 2 arguments but got 3.
